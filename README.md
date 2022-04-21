@@ -18,5 +18,7 @@ How to Install:
 
 Update 1.0
 - fixed the bug that you cant stop the animation
+- added a config for the Key for stopping the animation
+- added a config for the command so you can chosse what the comamd calls
 
 Sorry that the fix took so long :)
