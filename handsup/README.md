@@ -16,7 +16,7 @@ How to Install:
 3. restart your server
 
 
-Update 1.0
+Update 1.1
 - fixed the bug that you cant stop the animation
 - added a config for the Key for stopping the animation
 - added a config for the command so you can chosse what the comamd calls
