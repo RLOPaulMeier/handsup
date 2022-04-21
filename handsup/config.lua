@@ -14,7 +14,9 @@ Config = {}
 
 -- CONTROLS --
 Config.Controls = {
-	OpenMenu = {keyboard = Keys['F1']},
 	StopTasks = {keyboard = Keys['X']},
-	TPMarker = {keyboard1 = Keys['LEFTALT'], keyboard2 = Keys['E']}
 }
+
+Config.Command = "huk"
+
+Config.Command1 = "hu"
