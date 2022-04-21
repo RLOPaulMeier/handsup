@@ -1,9 +1,26 @@
+ESX = nil
+
+Player = {
+	inAnim = false,
+}
+
+Citizen.CreateThread(function()
+	while ESX == nil do
+		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+		Citizen.Wait(10)
+	end
+
+
+	ESX.PlayerData = ESX.GetPlayerData()
+end)
+
 function loadAnimDict(dict)
 	while (not HasAnimDictLoaded(dict)) do 
 		RequestAnimDict(dict)
 		Citizen.Wait(5)
 	end
 end
+
 RegisterCommand("huk",function(source, args)
 	local player = GetPlayerPed( -1 )
 	if ( DoesEntityExist( player ) and not IsEntityDead( player )) then 
@@ -48,3 +65,15 @@ RegisterCommand("hu",function()
     end
 
 end, false)
+
+Citizen.CreateThread(function()
+	while true do
+		plyPed = PlayerPedId()
+
+		if IsControlJustReleased(0, Config.Controls.StopTasks.keyboard) and IsInputDisabled(2) and not Player.isDead then
+			ClearPedTasks(plyPed)
+		end
+
+		Citizen.Wait(0)
+	end
+end)
