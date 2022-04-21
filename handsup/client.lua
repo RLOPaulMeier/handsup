@@ -21,7 +21,7 @@ function loadAnimDict(dict)
 	end
 end
 
-RegisterCommand("huk",function(source, args)
+RegisterCommand(Config.Command ,function(source, args)
 	local player = GetPlayerPed( -1 )
 	if ( DoesEntityExist( player ) and not IsEntityDead( player )) then 
 		loadAnimDict( "random@arrests" )
@@ -47,7 +47,7 @@ end, false)
 
 
 
-RegisterCommand("hu",function()
+RegisterCommand(Config.Command1 ,function()
 	local dict = "missminuteman_1ig_2"
 	
 	RequestAnimDict(dict)
