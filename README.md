@@ -14,3 +14,9 @@ How to Install:
 1. Drag and Drop the "handsup" folder in your resource directiory
 2. add "start handsup" on your server.cfg
 3. restart your server
+
+
+Update 1.0
+- fixed the bug that you cant stop the animation
+
+Sorry that the fix took so long :)
