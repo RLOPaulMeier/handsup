@@ -1,4 +1,4 @@
-Cobyright by @zV-LanaRhodes-Xv#3247
+Cobyright by ©zV-LanaRhodes-Xv#3247
 Date of create 01.12.2021
 
 Resource Name 'handsup'
