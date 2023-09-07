@@ -22,6 +22,6 @@ Update 1.1
 - added a config for the command so you can chosse what the comamd calls
 
 Update 1.2
-- fixed the X Button now you can also put your Hands up with "X"
+- added a key function so you can put your hands up holding "X" Button
 
 I was a long time gone but now I´m back in business and there will be more new Scripts coming soon :)
