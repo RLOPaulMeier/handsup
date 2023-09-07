@@ -23,6 +23,6 @@ Config.Command1 = "hu"
 
 Config.Key = 73 --Default is "X" but you can change it to every key you want. This will help you find the Number for the Key https://docs.fivem.net/docs/game-references/controls/
 
-Config.UseStopCommand = false -- If you want to stop your animation with a command set this to true, if not set it to false
+Config.UseStopCommand = false -- If you want to stop your animation with a command set this to true
 Config.StopCommand = "stopanimation"
-Config.UseKeyStop = true -- If you want to stop your animation with a key instead of a command set this to true, if not set it to false
+Config.UseKeyStop = true -- If you want to stop your animation with a key set this to true
