@@ -24,4 +24,4 @@ Update 1.1
 Update 1.2
 - added a key function so you can put your hands up holding "X" Button
 
-I was gone a long time ago but now I´m back and looking forward for new Scripts and Maps soon!
+I was a long time gone but now I´m back in business and there will be more new Scripts coming soon :)
