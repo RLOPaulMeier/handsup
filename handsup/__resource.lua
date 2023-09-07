@@ -1,7 +1,9 @@
-description "Simple HandsUp Script based on RealLifeOnline"
+fx_version 'adamant'
+games {'gta5'}
 
-version "1.1"
-author "PaulMeier#1791"
+author 'vz_lanarhoades_xv'
+description 'Simple Handsup Script with Command and Key funtion'
+version '1.2'
 
 shared_script "config.lua"
 
@@ -9,3 +11,4 @@ client_scripts {
 	'client.lua',
 	'config.lua'
 }
+
