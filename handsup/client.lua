@@ -45,6 +45,13 @@ RegisterCommand(Config.Command ,function(source, args)
 	end
 end, false)
 
+RegisterCommand(Config.StopCommand ,function(source, args)
+	if Config.UseStopCommand then
+		local plyPed = PlayerPedId()
+		ClearPedTasks(plyPed)
+	end
+end,false)
+
 
 
 RegisterCommand(Config.Command1 ,function()
@@ -68,12 +75,14 @@ end, false)
 
 Citizen.CreateThread(function()
 	while true do
-		plyPed = PlayerPedId()
+		if Config.UseKeyStop then
+			plyPed = PlayerPedId()
 
-		if IsControlJustReleased(0, Config.Controls.StopTasks.keyboard) and IsInputDisabled(2) and not Player.isDead then
-			ClearPedTasks(plyPed)
+			if IsControlJustReleased(0, Config.Controls.StopTasks.keyboard) and IsInputDisabled(2) and not Player.isDead then
+				ClearPedTasks(plyPed)
+			end
 		end
-
+		
 		Citizen.Wait(0)
 	end
 end)
