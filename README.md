@@ -1,4 +1,4 @@
-Cobyright by ©zV-LanaRhodes-Xv#3247
+Cobyright by ©vz_lanarhoades_xv
 Date of create 01.12.2021
 
 Resource Name 'handsup'
@@ -21,4 +21,7 @@ Update 1.1
 - added a config for the Key for stopping the animation
 - added a config for the command so you can chosse what the comamd calls
 
-Sorry that the fix took so long :)
+Update 1.2
+- fixed the X Button now you can also put your Hands up with "X"
+
+I was a long time gone but now I´m back in business and there will be more new Scripts coming soon :)
